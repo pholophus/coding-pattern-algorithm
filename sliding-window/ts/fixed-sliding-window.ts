@@ -34,6 +34,6 @@ function fixedSlidingWindow(array: number[], value: number) {
 }
 
 let arr1: number[] = [1, 2, 3, 4, 5, 6];
-let size = 2;
+let size = 3;
 let value = fixedSlidingWindow(arr1, size);
 console.log(value); // Output: [6,9,12,15]
